@@ -10,23 +10,15 @@ android {
     defaultConfig {
         applicationId "com.weather.android"
         minSdk 21
-<<<<<<< HEAD
-        targetSdk 32
-=======
         targetSdk 28
->>>>>>> 7430ac5 (Add blankj ,viewBinding so on to gradle)
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-<<<<<<< HEAD
-
-=======
     buildFeatures {
         viewBinding true
     }
->>>>>>> 7430ac5 (Add blankj ,viewBinding so on to gradle)
     buildTypes {
         release {
             minifyEnabled false
@@ -43,10 +35,6 @@ android {
 }
 
 dependencies {
-<<<<<<< HEAD
-
-    implementation 'androidx.core:core-ktx:1.7.0'
-=======
     implementation 'com.blankj:utilcode:1.30.7'
     implementation 'androidx.recyclerview:recyclerview-selection:1.1.0'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
@@ -58,7 +46,6 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.1'
     implementation 'androidx.core:core-ktx:1.6.0'
->>>>>>> 7430ac5 (Add blankj ,viewBinding so on to gradle)
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'

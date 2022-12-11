@@ -4,10 +4,7 @@
 
     <application
         android:allowBackup="true"
-<<<<<<< HEAD
-=======
         android:name=".application.WTApplication"
->>>>>>> 7430ac5 (Add blankj ,viewBinding so on to gradle)
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
